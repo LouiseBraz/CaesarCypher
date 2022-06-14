@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+  text-align: center;
+	text-decoration: none;
+	color:#171717;
+}
+
+.content {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.title {
+  text-align: center;
+    padding: 2px;
+}
+
+form {
+	height: 40vh;
+	width: 80vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+}
+
+label {
+	padding: 20px;
+}
+
+.textBox {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#cifra {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+#button {
+	background: #750346;
+	color: white;
+	padding: 12px;
+	font-weight: 1000;
+	font-size: 2em;
+  margin-top: 20%;
+}
+
+#button:hover {
+	background-color: #c00a74;
+}
+

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  </head>
+  <body>  
+    <div class="content">
+      <form action="">
+        <section class="textBox">
+          <label for="message">Input</label>
+          <textarea name="" id="message" cols="40" rows="20"></textarea> 
+        </section>
+        <section class="seletores">
+          <p class="title">Ceasar Cypher</p>
+          <input name="shift" id="shift" placeholder="shift"></input> 
+        <div id="cifra"></div>
+          <div class="radioButton">
+            <input id="codeRadio" type="radio" name="escolha" value="codificar">
+            <label for="codificar">Code</label>
+            <input id="decodeRadio" type="radio" name="escolha" value="decodificar">
+            <label for="decodificar">Decode</label>
+          </div>
+          <button id="button">Code/Decode</button>
+        </section> 
+        <section class="textBox">
+          <label for="message">Output</label>
+          <textarea id="output" cols="40" rows="20"></textarea>
+        </section>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
